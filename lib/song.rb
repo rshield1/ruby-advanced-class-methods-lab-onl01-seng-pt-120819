@@ -11,3 +11,12 @@ class Song
   end
 
 end
+
+class self.create
+  
+  attr_accessor :Song
+  
+  def initialize(song)
+    @@all << Song
+  
+end
